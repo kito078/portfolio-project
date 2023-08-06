@@ -3,7 +3,7 @@ import React from "react";
 function Shocase() {
   return (
     <div className="mx-8 lg:mx-0 w-96 ">
-      <h1 className="text-4xl leading-normal sm:text-5xl font-bold text-gray-300 mb-3">
+      <h1 className="text-4xl leading-loose sm:text-5xl font-bold text-gray-300 mb-3">
         Ngqabutho Kito Ndlovu
       </h1>
       <h5 className="text-2xl font-semibold text-gray-300 mb-3">
