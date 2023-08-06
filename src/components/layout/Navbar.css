@@ -1,9 +1,9 @@
-/* HAMBURGER MENU */
+/* Hamburger Menu */
 
 .hamburger {
   cursor: pointer;
   width: 24px;
-  height: 30px;
+  height: 24px;
   transition: all 0.25s;
   position: relative;
 }
@@ -11,16 +11,11 @@
 .hamburger-top,
 .hamburger-middle,
 .hamburger-bottom {
-  content: "";
   position: absolute;
   width: 24px;
-  height: 3px;
+  height: 2px;
   top: 0;
   left: 0;
-  margin-top: 0.5rem;
-  /* margin-left: 1rem;
-    margin-right: 1rem; */
-  /* background: #000; */
   background: #fff;
   transform: rotate(0);
   transition: all 0.5s;
@@ -32,21 +27,14 @@
 
 .hamburger-bottom {
   transform: translateY(14px);
-  /* background: #000; */
-  background: #fff;
 }
 
 .open {
   transform: rotate(90deg);
-  transform: translateY(0px);
-  position: fixed;
-  /* top: 50px; */
-  right: 25px;
 }
 
 .open .hamburger-top {
   transform: rotate(45deg) translateY(6px) translateX(6px);
-  background-color: #fff;
 }
 
 .open .hamburger-middle {
@@ -55,7 +43,6 @@
 
 .open .hamburger-bottom {
   transform: rotate(-45deg) translateY(6px) translateX(-6px);
-  background-color: #fff;
 }
 
 .space-x-20 > :not([hidden]) ~ :not([hidden]) {
