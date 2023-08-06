@@ -39,18 +39,18 @@ function Shocase() {
           projects
         </span>
       </div>
-      <div>
+      <div className="flex items-center justify-items-center">
         <div>
-          <BsGithub />
+          <BsGithub className="text-2xl mr-5" />
         </div>
         <div>
-          <BsInstagram />
+          <BsInstagram className="text-2xl mr-5" />
         </div>
         <div>
-          <FaTwitter />
+          <FaTwitter className="text-2xl mr-5" />
         </div>
         <div>
-          <FaLinkedin />
+          <FaLinkedin className="text-2xl mr-5" />
         </div>
       </div>
     </div>
