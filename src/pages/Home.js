@@ -3,7 +3,7 @@ import Shocase from "../components/shwcase/Shocase";
 
 function Home() {
   return (
-    <div>
+    <div className="container-one">
       <Shocase />
     </div>
   );
