@@ -10,3 +10,8 @@ body {
   background-color: #0f172a !important;
   color: #ffffff;
 }
+
+.container-one {
+  max-width: 1150px !important;
+  margin: auto !important;
+}
