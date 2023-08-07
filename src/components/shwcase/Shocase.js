@@ -4,7 +4,7 @@ import { BsGithub, BsInstagram } from "react-icons/bs";
 
 function Shocase() {
   return (
-    <div className="mx-8 lg:mx-0  ">
+    <div className="mx-6 lg:mx-0  ">
       <h1 className="leading-normal text-4xl  sm:text-5xl font-bold text-gray-300 mb-3">
         Ngqabutho Kito Ndlovu
       </h1>
@@ -39,18 +39,18 @@ function Shocase() {
           projects
         </span>
       </div>
-      <div className="flex items-center justify-items-center">
+      <div className="flex items-center justify-items-center mt-10">
         <div>
-          <BsGithub className="text-2xl mr-5" />
+          <BsGithub className="text-2xl mr-5 text-gray-400 cursor-pointer  hover:text-gray-200" />
         </div>
         <div>
-          <BsInstagram className="text-2xl mr-5" />
+          <BsInstagram className="text-2xl mr-5 text-gray-400 cursor-pointer  hover:text-gray-200" />
         </div>
         <div>
-          <FaTwitter className="text-2xl mr-5" />
+          <FaTwitter className="text-2xl mr-5 text-gray-400 cursor-pointer  hover:text-gray-200" />
         </div>
         <div>
-          <FaLinkedin className="text-2xl mr-5" />
+          <FaLinkedin className="text-2xl mr-5 text-gray-400 cursor-pointer  hover:text-gray-200" />
         </div>
       </div>
     </div>
