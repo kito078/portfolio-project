@@ -15,3 +15,9 @@ body {
   max-width: 1150px !important;
   margin: auto !important;
 }
+
+/* Hide the scrollbar while keeping the content scrollable */
+.scrollbar-none::-webkit-scrollbar {
+  width: 0;
+  background-color: transparent;
+}
