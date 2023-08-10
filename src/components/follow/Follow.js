@@ -4,7 +4,7 @@ import { BsGithub, BsInstagram } from "react-icons/bs";
 
 function Follow() {
   return (
-    <div className="sticky top-16">
+    <div className="sticky top-32">
       <div className="absolute right-0 top-0">
         <div className="writing-mode-vertical">
           <h5 className="text-white transform rotate-180 origin-center whitespace-nowrap">
