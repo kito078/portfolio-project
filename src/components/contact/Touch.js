@@ -2,10 +2,12 @@ import React from "react";
 
 function Touch() {
   return (
-    <div className="h-96">
-      <p>Feel free to contact me anytimes</p>
-      <h3 className="text-white text-5xl font-bold">Get in Touch</h3>
-      <hr className="border-t-2 border-gray-600 my-2 w-20" />
+    <div className="flex flex-col items-center justify-content-center h-96 mt-16 text-center">
+      <p className="text-gray-400 text-lg mb-4">
+        Feel free to contact me anytimes
+      </p>
+      <h3 className="text-gray-300 text-5xl font-bold mb-7">Get in Touch</h3>
+      <hr className="border-t-4 border-gray-400 my-2 w-20" />
     </div>
   );
 }
