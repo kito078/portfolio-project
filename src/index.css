@@ -23,5 +23,7 @@ body {
 }
 
 .writing-mode-vertical {
-  writing-mode: vertical-rl; /* Vertical writing mode from right to left */
+  writing-mode: vertical-lr; /* Vertical writing mode from top to bottom */
+  transform: rotate(180deg); /* Rotate the text to face the right side */
+  white-space: nowrap; /*/* Allow upright and sideways text */
 }

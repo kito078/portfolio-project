@@ -1,10 +1,12 @@
 import React from "react";
 import { FaTwitter, FaLinkedin } from "react-icons/fa";
 import { BsGithub, BsInstagram } from "react-icons/bs";
+import Follow from "../follow/Follow";
 
 function Shocase() {
   return (
     <div className="mx-6 lg:mx-0  ">
+      <Follow />
       <h1 className="leading-normal text-4xl  sm:text-5xl font-bold text-gray-300 mb-3">
         Ngqabutho Kito Ndlovu
       </h1>

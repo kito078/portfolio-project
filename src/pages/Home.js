@@ -9,7 +9,6 @@ function Home() {
   return (
     <div className="container-one ">
       <Shocase />
-      <Follow />
       <Feature />
       <Levels />
       <BuildSection />
