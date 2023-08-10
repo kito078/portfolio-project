@@ -5,6 +5,7 @@ import Levels from "../components/shwcase/Levels";
 import BuildSection from "../components/buildSection/BuildSection";
 import Follow from "../components/follow/Follow";
 import Touch from "../components/contact/Touch";
+import Contact from "../components/contact/Contact";
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <Levels />
       <BuildSection />
       <Touch />
+      <Contact />
     </div>
   );
 }
