@@ -4,7 +4,7 @@ import { MdLocationOn, MdCall, MdSend } from "react-icons/md";
 
 function Contact() {
   return (
-    <div>
+    <div className="flex flex-col items-center justify-content-ceneter">
       <div className="mr-12 mx-6 lg:mx-0 ">
         <h3 className="text-2xl font-bold mb-6 text-gray-300">Message Me</h3>
 
@@ -75,22 +75,40 @@ function Contact() {
           </button>
         </form>
       </div>
-      <div>
-        <h3>Contact Info</h3>
-        <p>
+      <div className="mt-14 mx-6 lg:mx-0">
+        <h3 className="text-3xl font-bold text-gray-300 mb-3">Contact Info</h3>
+        <p className="text-gray-400 text-lg">
           Always available for freelance work if the right project comes along,
           Feel free to contact me!
         </p>
-        <div>
-          <div>
-            <FaUbuntu className="text-white text-4xl my-6" />
-            <MdLocationOn className="text-white text-4xl my-6" />
-            <MdCall className="text-white text-4xl my-6" />
-            <MdSend className="text-white text-4xl my-6" />
+        <div className="flex items-center justify-content-center">
+          <div className="mb-4">
+            <FaUbuntu className="text-white text-4xl my-10" />
+            <MdLocationOn className="text-white text-4xl my-10" />
+            <MdCall className="text-white text-4xl my-10" />
+            <MdSend className="text-white text-4xl my-10" />
+          </div>
+          <div className="flex mx-6">
+            <div className="border-l-2 border-gray-600 h-64 my-2 mt-7 ml-2 mb-8"></div>
           </div>
           <div>
-            <div className="flex">
-              <div className="border-l-2 border-gray-400 h-14 my-2 mt-7 ml-2"></div>
+            <div className="mb-4">
+              <h5 className="text-gray-300 text-xl font-bold">Name</h5>
+              <p className="text-gray-400 text-lg">Emma Smith</p>
+            </div>
+            <div className="mb-4">
+              <h5 className="text-gray-300 text-xl font-bold">Location</h5>
+              <p className="text-gray-400 text-lg">
+                4155 Mann Island, Liverpool, United Kingdom.
+              </p>
+            </div>
+            <div className="mb-4">
+              <h5 className="text-gray-300 text-xl font-bold">Call Me</h5>
+              <p className="text-gray-400 text-lg">+44 1632 967704</p>
+            </div>
+            <div className="mb-4">
+              <h5 className="text-gray-300 text-xl font-bold">Email Me</h5>
+              <p className="text-gray-400 text-lg">emma@example.com</p>
             </div>
           </div>
         </div>
