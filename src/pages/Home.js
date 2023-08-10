@@ -4,6 +4,7 @@ import Feature from "../components/shwcase/Feature";
 import Levels from "../components/shwcase/Levels";
 import BuildSection from "../components/buildSection/BuildSection";
 import Follow from "../components/follow/Follow";
+import Touch from "../components/contact/Touch";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <Feature />
       <Levels />
       <BuildSection />
+      <Touch />
     </div>
   );
 }
