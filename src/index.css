@@ -21,3 +21,7 @@ body {
   width: 0;
   background-color: transparent;
 }
+
+.writing-mode-vertical {
+  writing-mode: vertical-rl; /* Vertical writing mode from right to left */
+}
