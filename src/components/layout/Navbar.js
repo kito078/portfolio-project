@@ -11,7 +11,7 @@ function Navbar() {
     setIsOpen(!isOpen);
   };
   return (
-    <nav className="mb-12  bg-neutral relative mx-auto p-2 px-6">
+    <nav className="mb-12  bg-neutral relative mx-auto p-2 px-6 sticky top-0">
       <div className="container-one">
         {/* flex container for Nav Items */}
         <div className="flex items-center justify-between space-x-20 my-2">
