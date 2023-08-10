@@ -6,7 +6,7 @@ function Contact() {
       <div>
         <h3>MEssage Me</h3>
 
-        <form className="w-3/4">
+        <form className="w-1/2">
           <div class="grid md:grid-cols-2 md:gap-6">
             <div class="relative z-0 w-full mb-6 group">
               <input
