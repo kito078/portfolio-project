@@ -4,7 +4,7 @@ import { MdLocationOn, MdCall, MdSend } from "react-icons/md";
 
 function Contact() {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center  justify-content-ceneter">
+    <div className="grid grid-cols-1 lg:grid-cols-2 lg:mb-60 gap-14 items-center  justify-content-ceneter">
       <div className="mr-12 mx-6 lg:mx-0 ">
         <h3 className="text-2xl font-bold mb-6 text-gray-300">Message Me</h3>
 

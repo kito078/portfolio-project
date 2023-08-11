@@ -6,7 +6,7 @@ import { BsGithub } from "react-icons/bs";
 
 function BuildSection() {
   return (
-    <div className="flex gap-16 ">
+    <div className="flex flex-col lg:flex-row gap-14 lg:mb-60">
       <div className="main-container h-64 overflow-y-scroll scrollbar-none relative">
         <div className="flex items-center justify-center">
           <div className="w-3/ bg-white rounded-lg shadow-md relative">
@@ -28,7 +28,7 @@ function BuildSection() {
         <h1 className="text-gray-300 text-3xl font-bold mb-6">
           01. To Do Full Stack App
         </h1>
-        <div className="absolute ml-5 w-2/4">
+        <div className=" ml-  ">
           <p className="text-lg text-gray-400">
             {" "}
             This is an assignment given in "JavaScript Full Stack Web Developer

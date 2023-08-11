@@ -55,7 +55,7 @@ function Levels() {
 
   return (
     <div
-      className="flex flex-col items-center justify-items-center w-2/4 mx-auto text-center group"
+      className="flex flex-col items-center justify-items-center mb-24 w-2/4 mx-auto text-center group"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
@@ -74,10 +74,10 @@ function Levels() {
 
       <div className="mt-4">
         {/* Content that appears when hovering */}
-        <p className="text-lg text-gray-500">
+        {/* <p className="text-lg text-gray-500">
           Whether you're looking to switch to a career in tech or to advance in
           your current role, my courses give you the
-        </p>
+        </p> */}
       </div>
     </div>
   );
