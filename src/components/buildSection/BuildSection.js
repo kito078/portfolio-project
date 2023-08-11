@@ -6,13 +6,15 @@ import { BsGithub } from "react-icons/bs";
 
 function BuildSection() {
   return (
-    <div className="flex flex-col lg:flex-row gap-14 lg:mb-60">
-      <div className="main-container h-64 overflow-y-scroll scrollbar-none relative">
+    <div className="flex flex-col lg:flex-row gap-14 mx-6 lg:mx-0 mr-14 lg:mb-60 ">
+      <div className="main-container h-64 overflow-y-scroll scrollbar-none relative rounded-b-lg">
         <div className="flex items-center justify-center">
           <div className="w-3/ bg-white rounded-lg shadow-md relative">
             <div className="overlay">
               {/* This is the overlay content */}
-              <h2 className="text-white text-2xl">Overlay Content</h2>
+              <div className="flex justify-center items-center mt-32">
+                <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-blue-500"></div>
+              </div>
             </div>
             <div className="mb-4">
               <img src={Build} alt="Your Image" className="w-full h-auto" />
