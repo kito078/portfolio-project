@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 /* Add common styles here */
-
+* {
+  box-sizing: border-box !important;
+}
 /* Dark theme styles */
 body {
   /* Add dark theme styles here */
