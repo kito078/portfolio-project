@@ -9,8 +9,8 @@
 /* Dark theme styles */
 body {
   /* Add dark theme styles here */
-  background-color: red !important;
-  /* background-color: #0f172a !important; */
+
+  background-color: #0f172a !important;
   color: #ffffff;
 }
 
