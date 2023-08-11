@@ -24,9 +24,9 @@ function AboutMe() {
         <div className="w-10 group-hover:w-20 transition-all duration-300">
           <hr className="border-t-2 border-gray-400 my-2" />
         </div>
-        <div className="flex flex-col md:flex-row items-center justify-content-`center`">
+        <div className="flex flex-col md:flex-row items-center justify-between`">
           <div>
-            <div className="flex items-center justify-content-center mb-3">
+            <div className="flex items-center justify-between mb-3">
               <h5 className="text-gray-300 text-lg font-bold">Name:</h5>
               <p className="text-gray-400 text-md ml-3">Emma Smith</p>
             </div>
