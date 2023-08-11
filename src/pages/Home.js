@@ -7,6 +7,7 @@ import Follow from "../components/follow/Follow";
 import Touch from "../components/contact/Touch";
 import Contact from "../components/contact/Contact";
 import AboutMe from "../components/About/AboutMe";
+import About from "../components/About/About";
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
       <BuildSection />
       <Touch />
       <Contact />
+      <About />
       <AboutMe />
     </div>
   );
