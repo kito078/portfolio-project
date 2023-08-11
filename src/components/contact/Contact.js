@@ -4,7 +4,7 @@ import { MdLocationOn, MdCall, MdSend } from "react-icons/md";
 
 function Contact() {
   return (
-    <div className="flex flex-col items-center justify-content-ceneter">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center  justify-content-ceneter">
       <div className="mr-12 mx-6 lg:mx-0 ">
         <h3 className="text-2xl font-bold mb-6 text-gray-300">Message Me</h3>
 
@@ -66,10 +66,10 @@ function Contact() {
 
           <button
             type="submit"
-            class="text-white bg-blue-700 hover:bg-blue-800 
-            focus:ring-4 focus:outline-none focus:ring-blue-300 
-            font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5
-             text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            class="text-white  
+            focus:ring-4 focus:outline-none 
+            font-medium rounded-lg text-lg w-full sm:w-auto px-20 py-2.5
+             text-center bg-blue-500 hover:bg-blue-600 focus:ring-blue-800"
           >
             Submit
           </button>
@@ -83,32 +83,32 @@ function Contact() {
         </p>
         <div className="flex items-center justify-content-center">
           <div className="mb-4">
-            <FaUbuntu className="text-white text-4xl my-10" />
-            <MdLocationOn className="text-white text-4xl my-10" />
-            <MdCall className="text-white text-4xl my-10" />
-            <MdSend className="text-white text-4xl my-10" />
+            <FaUbuntu className="text-blue-500  text-3xl my-10" />
+            <MdLocationOn className="text-blue-500  text-3xl my-10" />
+            <MdCall className="text-blue-500  text-3xl my-10" />
+            <MdSend className="text-blue-500  text-3xl my-10" />
           </div>
           <div className="flex mx-6">
-            <div className="border-l-2 border-gray-600 h-64 my-2 mt-7 ml-2 mb-8"></div>
+            <div className="border-l-2 border-gray-600 h-60 my-2 mt-7 ml-2 mb-8"></div>
           </div>
           <div>
             <div className="mb-4">
-              <h5 className="text-gray-300 text-xl font-bold">Name</h5>
-              <p className="text-gray-400 text-lg">Emma Smith</p>
+              <h5 className="text-gray-300 text-lg font-bold">Name</h5>
+              <p className="text-gray-400 text-md">Emma Smith</p>
             </div>
             <div className="mb-4">
-              <h5 className="text-gray-300 text-xl font-bold">Location</h5>
-              <p className="text-gray-400 text-lg">
+              <h5 className="text-gray-300 text-lg font-bold">Location</h5>
+              <p className="text-gray-400 text-md">
                 4155 Mann Island, Liverpool, United Kingdom.
               </p>
             </div>
             <div className="mb-4">
-              <h5 className="text-gray-300 text-xl font-bold">Call Me</h5>
-              <p className="text-gray-400 text-lg">+44 1632 967704</p>
+              <h5 className="text-gray-300 text-lg font-bold">Call Me</h5>
+              <p className="text-gray-400 text-md">+44 1632 967704</p>
             </div>
             <div className="mb-4">
-              <h5 className="text-gray-300 text-xl font-bold">Email Me</h5>
-              <p className="text-gray-400 text-lg">emma@example.com</p>
+              <h5 className="text-gray-300 text-lg font-bold">Email Me</h5>
+              <p className="text-gray-400 text-md">emma@example.com</p>
             </div>
           </div>
         </div>

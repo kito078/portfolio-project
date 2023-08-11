@@ -6,6 +6,7 @@ import BuildSection from "../components/buildSection/BuildSection";
 import Follow from "../components/follow/Follow";
 import Touch from "../components/contact/Touch";
 import Contact from "../components/contact/Contact";
+import AboutMe from "../components/About/AboutMe";
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
       <BuildSection />
       <Touch />
       <Contact />
+      <AboutMe />
     </div>
   );
 }
