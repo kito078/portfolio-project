@@ -6,7 +6,7 @@ import { BsGithub } from "react-icons/bs";
 
 function BuildSection() {
   return (
-    <div className="flex flex-col lg:flex-row gap-14 mx-6 lg:mx-0 mr-14 lg:mb-60 ">
+    <div className="flex flex-col lg:flex-row gap-14 mx-6 lg:mx-0 mr-11 lg:mb-60 ">
       <div className="main-container h-64 overflow-y-scroll scrollbar-none relative rounded-b-lg">
         <div className="flex items-center justify-center">
           <div className="w-3/ bg-white rounded-lg shadow-md relative">
@@ -26,17 +26,17 @@ function BuildSection() {
           </div>
         </div>
       </div>
-      <div>
-        <h1 className="text-gray-300 text-3xl font-bold mb-6">
+      <div className="mr-2">
+        <h1 className="text-3xl md:text-4xl font-bold text-gray-300 mb-3 md:mb-4">
           01. To Do Full Stack App
         </h1>
         <div className=" ml-  ">
-          <p className="text-lg text-gray-400">
+          <span className="text-lg text-gray-400">
             {" "}
             This is an assignment given in "JavaScript Full Stack Web Developer
             Bootcamp" by iNeuron, built using MongoDb, Express, React and
             NodeJS. This Site is Fully Responsive
-          </p>
+          </span>
           <h5 className="text-blue-500 text-lg font-semibold">
             React NodeJS Express MongoDb Tailwind CSS
           </h5>
