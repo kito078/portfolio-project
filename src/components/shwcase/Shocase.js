@@ -12,7 +12,7 @@ function Shocase() {
       <h5 className="text-2xl font-semibold text-gray-300 mb-3">
         Front-End Developer
       </h5>
-      <p className="text-gray-400 text-lg mb-20">
+      <p className="text-gray-400 text-2xl font-medium mb-20">
         I build accessible, inclusive products and digital experiences for the
         web.
       </p>
