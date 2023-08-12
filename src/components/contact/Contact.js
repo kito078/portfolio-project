@@ -94,21 +94,27 @@ function Contact() {
           <div>
             <div className="mb-4">
               <h5 className="text-gray-300 text-lg font-bold">Name</h5>
-              <p className="text-gray-400 text-md">Emma Smith</p>
+              <span className="text-gray-400 text-md font-semibold">
+                Emma Smith
+              </span>
             </div>
             <div className="mb-4">
               <h5 className="text-gray-300 text-lg font-bold">Location</h5>
-              <p className="text-gray-400 text-md">
+              <span className="text-gray-400 text-md font-semibold">
                 4155 Mann Island, Liverpool, United Kingdom.
-              </p>
+              </span>
             </div>
             <div className="mb-4">
               <h5 className="text-gray-300 text-lg font-bold">Call Me</h5>
-              <p className="text-gray-400 text-md">+44 1632 967704</p>
+              <span className="text-gray-400 text-md font-semibold">
+                +44 1632 967704
+              </span>
             </div>
             <div className="mb-4">
               <h5 className="text-gray-300 text-lg font-bold">Email Me</h5>
-              <p className="text-gray-400 text-md">emma@example.com</p>
+              <span className="text-gray-400 text-md font-semibold">
+                emma@example.com
+              </span>
             </div>
           </div>
         </div>
