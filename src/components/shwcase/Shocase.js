@@ -6,7 +6,7 @@ import Follow from "../follow/Follow";
 function Shocase() {
   return (
     <div className="mx-6 lg:mx-0  lg:mb-60">
-      <h1 className="leading-normal text-4xl  sm:text-5xl font-bold text-gray-300 mb-3">
+      <h1 className="leading-normal text-5xl  sm:text-7xl font-bold text-gray-300 mb-3">
         Ngqabutho Kito Ndlovu
       </h1>
       <h5 className="text-2xl font-semibold text-gray-300 mb-3">
