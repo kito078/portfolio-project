@@ -31,7 +31,7 @@ function BuildSection() {
           ToDo Full Stack App
         </h1>
         <div className=" ml-  ">
-          <span className="text-sm sm:text-lg text-gray-400">
+          <span className="text-sm sm:text-lg leading-normal text-gray-400">
             {" "}
             This is an assignment given in "JavaScript Full Stack Web Developer
             Bootcamp" by iNeuron, built using MongoDb, Express, React and
