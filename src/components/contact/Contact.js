@@ -77,7 +77,7 @@ function Contact() {
       </div>
       <div className="mt-14 mx-6 lg:mx-0">
         <h3 className="text-3xl font-bold text-gray-300 mb-3">Contact Info</h3>
-        <p className="text-gray-400 text-sm leading-normal mb-5 lg:mb-0 md:text-lg">
+        <p className="text-gray-400 text-sm leading-normal mb-5 lg:mb-0 md:text-lg mr-5">
           Always available for freelance work if the right project comes along,
           Feel free to contact me!
         </p>
