@@ -28,13 +28,13 @@ function AboutMe() {
           <div>
             <div className="flex items-center mb-4">
               <h5 className="text-gray-300 text-lg font-bold">Name:</h5>
-              <span className="text-gray-400 text-md ml-3 font-semibold">
+              <span className="text-gray-400 text-sm md:text-mdml-3 font-semibold">
                 Emma Smith
               </span>
             </div>
             <div className="flex items-center justify-content-center">
               <h5 className="text-gray-300 text-lg font-bold">Age:</h5>
-              <span className="text-gray-400 text-md ml-3 font-semibold">
+              <span className="text-gray-400 text-sm md:text-md ml-3 font-semibold">
                 21
               </span>
             </div>
@@ -42,14 +42,14 @@ function AboutMe() {
           <div>
             <div className="flex items-center justify-content-center mb-4">
               <h5 className="text-gray-300 text-lg font-bold">Email:</h5>
-              <span className="text-gray-400 text-md ml-3 font-semibold">
+              <span className="text-gray-400 text-sm md:text-md ml-3 font-semibold">
                 {" "}
                 emma@example.com
               </span>
             </div>
             <div className="flex items-center justify-content-center">
               <h5 className="text-gray-300 text-lg font-bold">From:</h5>
-              <span className="text-gray-400 text-md ml-3 font-semibold">
+              <span className="text-gray-400 text-sm md:text-md ml-3 font-semibold">
                 {" "}
                 Liverpool, UK
               </span>
