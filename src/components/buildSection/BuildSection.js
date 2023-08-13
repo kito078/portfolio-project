@@ -1,5 +1,9 @@
 import React from "react";
-import Build from "../../images/build.png";
+import Build1 from "../../images/build1.png";
+import Build2 from "../../images/build2.png";
+import Build3 from "../../images/build3.png";
+import Build4 from "../../images/build4.png";
+import Build5 from "../../images/build5.png";
 import "./BuildSection.css"; // Import your CSS file
 
 import BuildItem from "./BuildItem";
@@ -7,7 +11,7 @@ import BuildItem from "./BuildItem";
 function BuildSection() {
   const projects = [
     {
-      img: Build,
+      img: Build1,
       title: "ToDo Full Stack App",
       desc: "This is an assignment given in JavaScript Full Stack Web DeveloperBootcamp by iNeuron, built using MongoDb, Express, React andNodeJS. This Site is Fully Responsive",
       tech: "React NodeJS Express MongoDb Tailwind CSS",
@@ -18,7 +22,7 @@ function BuildSection() {
       web: "https://tailwindcss.com/docs/line-height",
     },
     {
-      img: Build,
+      img: Build2,
       title: "ToDo Full Stack App",
       desc: "This is an assignment given in JavaScript Full Stack Web DeveloperBootcamp by iNeuron, built using MongoDb, Express, React andNodeJS. This Site is Fully Responsive",
       tech: "React NodeJS Express MongoDb Tailwind CSS",
@@ -29,7 +33,7 @@ function BuildSection() {
       web: "https://tailwindcss.com/docs/line-height",
     },
     {
-      img: Build,
+      img: Build3,
       title: "ToDo Full Stack App",
       desc: "This is an assignment given in JavaScript Full Stack Web DeveloperBootcamp by iNeuron, built using MongoDb, Express, React andNodeJS. This Site is Fully Responsive",
       tech: "React NodeJS Express MongoDb Tailwind CSS",
@@ -40,7 +44,7 @@ function BuildSection() {
       web: "https://tailwindcss.com/docs/line-height",
     },
     {
-      img: Build,
+      img: Build4,
       title: "ToDo Full Stack App",
       desc: "This is an assignment given in JavaScript Full Stack Web DeveloperBootcamp by iNeuron, built using MongoDb, Express, React andNodeJS. This Site is Fully Responsive",
       tech: "React NodeJS Express MongoDb Tailwind CSS",
@@ -51,7 +55,7 @@ function BuildSection() {
       web: "https://tailwindcss.com/docs/line-height",
     },
     {
-      img: Build,
+      img: Build5,
       title: "ToDo Full Stack App",
       desc: "This is an assignment given in JavaScript Full Stack Web DeveloperBootcamp by iNeuron, built using MongoDb, Express, React andNodeJS. This Site is Fully Responsive",
       tech: "React NodeJS Express MongoDb Tailwind CSS",
