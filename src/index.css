@@ -43,11 +43,13 @@ p {
   }
 }
 
-.build:nth-child(2) .build__header {
-  display: grid;
-  order: 2;
-}
-.build:nth-child(4) .build__header {
-  display: grid;
-  order: 2;
+@media (min-width: 992px) {
+  .build:nth-child(2) .build__header {
+    display: grid;
+    order: 2;
+  }
+  .build:nth-child(4) .build__header {
+    display: grid;
+    order: 2;
+  }
 }
