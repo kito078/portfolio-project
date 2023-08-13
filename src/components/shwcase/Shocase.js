@@ -12,7 +12,7 @@ function Shocase() {
       <h3 className="text-3xl md:text-4xl font-bold text-gray-300 mb-3 md:my-6">
         JavaScript Mastery
       </h3>
-      <p className="text-gray-400 text-2xl font-normal mb-20">
+      <p className="text-gray-400 text-lg font-normal mb-20">
         I build accessible, inclusive products and digital experiences for the
         web.
       </p>
