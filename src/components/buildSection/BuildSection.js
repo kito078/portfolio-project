@@ -18,8 +18,8 @@ function BuildSection() {
       pro1: "html5",
       pro2: "Reactjs",
       pro3: "Tailwind css",
-      git: "https://tailwindcss.com/docs/line-height",
-      web: "https://tailwindcss.com/docs/line-height",
+      git: "https://github.com/kito078/chack-me-store",
+      web: "https://chack-me-store.vercel.app/",
     },
     {
       img: Build2,
@@ -29,8 +29,8 @@ function BuildSection() {
       pro1: "html5",
       pro2: "Reactjs",
       pro3: "Tailwind css",
-      git: "https://tailwindcss.com/docs/line-height",
-      web: "https://tailwindcss.com/docs/line-height",
+      git: "https://github.com/kito078/IT-Soft",
+      web: "https://dancing-fenglisu-f2dbc7.netlify.app/",
     },
     {
       img: Build3,
@@ -40,8 +40,8 @@ function BuildSection() {
       pro1: "html5",
       pro2: "Reactjs",
       pro3: "Tailwind css",
-      git: "https://tailwindcss.com/docs/line-height",
-      web: "https://tailwindcss.com/docs/line-height",
+      git: "https://github.com/kito078/soHost",
+      web: "https://so-host.vercel.app/",
     },
     {
       img: Build4,
@@ -51,8 +51,8 @@ function BuildSection() {
       pro1: "html5",
       pro2: "Reactjs",
       pro3: "Tailwind css",
-      git: "https://tailwindcss.com/docs/line-height",
-      web: "https://tailwindcss.com/docs/line-height",
+      git: "https://github.com/United-Programmers/Buy_and_sell_react",
+      web: "https://buy-and-sell-react.vercel.app/home",
     },
     {
       img: Build5,
@@ -62,8 +62,8 @@ function BuildSection() {
       pro1: "html5",
       pro2: "Reactjs",
       pro3: "Tailwind css",
-      git: "https://tailwindcss.com/docs/line-height",
-      web: "https://tailwindcss.com/docs/line-height",
+      git: "https://github.com/kito078/carStore",
+      web: "https://car-store-umber.vercel.app/",
     },
   ];
   return (
