@@ -8,8 +8,8 @@ function BuildItem({ project }) {
   const { img, title, desc, tech, git, web, pro1, pro2, pro3 } = project;
 
   return (
-    <div className="flex flex-col lg:flex-row gap-8 sm:gap-14 mx-6 lg:mx-0 mr-11 mb-0 lg:mb-52 ">
-      <div className="main-container h-64 overflow-y-scroll scrollbar-none relative rounded-b-xl">
+    <div className="build flex flex-col lg:flex-row gap-8 sm:gap-14 mx-6 lg:mx-0 mr-11 mb-0 lg:mb-52 ">
+      <div className="main-container build__header h-64 overflow-y-scroll scrollbar-none relative rounded-b-xl">
         <div className="flex items-center justify-center">
           <div className="w-3/ bg-white rounded-lg shadow-md relative">
             <div className="overlay">
@@ -21,10 +21,6 @@ function BuildItem({ project }) {
             <div className="mb-4">
               <img src={img} alt="Your Image" className="w-full h-auto" />
             </div>
-            {/* <p className="text-gray-700 text-sm">
-   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at
-   est ut urna cursus accumsan.
- </p> */}
           </div>
         </div>
       </div>
