@@ -77,7 +77,7 @@ function Contact() {
       </div>
       <div className="mt-14 mx-6 lg:mx-0">
         <h3 className="text-3xl font-bold text-gray-300 mb-3">Contact Info</h3>
-        <p className="text-gray-400 text-lg">
+        <p className="text-gray-400 text-sm md:text-lg">
           Always available for freelance work if the right project comes along,
           Feel free to contact me!
         </p>
@@ -94,25 +94,25 @@ function Contact() {
           <div>
             <div className="mb-4">
               <h5 className="text-gray-300 text-lg font-bold">Name</h5>
-              <span className="text-gray-400 text-md font-semibold">
+              <span className="text-gray-400 text-sm md:text-md font-semibold">
                 Emma Smith
               </span>
             </div>
             <div className="mb-4">
               <h5 className="text-gray-300 text-lg font-bold">Location</h5>
-              <span className="text-gray-400 text-md font-semibold">
+              <span className="text-gray-400 text-sm md:text-md font-semibold">
                 4155 Mann Island, Liverpool, United Kingdom.
               </span>
             </div>
             <div className="mb-4">
               <h5 className="text-gray-300 text-lg font-bold">Call Me</h5>
-              <span className="text-gray-400 text-md font-semibold">
+              <span className="text-gray-400 text-sm md:text-md font-semibold">
                 +44 1632 967704
               </span>
             </div>
             <div className="mb-4">
               <h5 className="text-gray-300 text-lg font-bold">Email Me</h5>
-              <span className="text-gray-400 text-md font-semibold">
+              <span className="text-gray-400 text-sm md:text-mdfont-semibold">
                 emma@example.com
               </span>
             </div>
