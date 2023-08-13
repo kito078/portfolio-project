@@ -11,7 +11,7 @@ function AboutMe() {
           <h3 className="text-3xl md:text-4xl font-bold text-gray-300 font-bold mb-5">
             I'm Emma Smith, a visual UX/UI Designer and Web Developer
           </h3>
-          <p className="text-gray-400 text-lg">
+          <span className="text-gray-400 text-lg">
             {" "}
             I am a freelancer based in the United Kingdom and i have been
             building noteworthy UX/UI designs and websites for years, which
@@ -19,7 +19,7 @@ function AboutMe() {
             idea into meaningful and useful products. Having a sharp eye for
             product evolution helps me prioritize tasks, iterate fast and
             deliver faster.{" "}
-          </p>
+          </span>
         </div>
         <div className="w-full group-hover:w-20 transition-all duration-300">
           <hr className="border-t-2 border-gray-700 my-6 " />
