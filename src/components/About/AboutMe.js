@@ -28,21 +28,31 @@ function AboutMe() {
           <div>
             <div className="flex items-center mb-4">
               <h5 className="text-gray-300 text-lg font-bold">Name:</h5>
-              <p className="text-gray-400 text-md ml-3">Emma Smith</p>
+              <span className="text-gray-400 text-md ml-3 font-semibold">
+                Emma Smith
+              </span>
             </div>
             <div className="flex items-center justify-content-center">
               <h5 className="text-gray-300 text-lg font-bold">Age:</h5>
-              <p className="text-gray-400 text-md ml-3">21</p>
+              <span className="text-gray-400 text-md ml-3 font-semibold">
+                21
+              </span>
             </div>
           </div>
           <div>
             <div className="flex items-center justify-content-center mb-4">
               <h5 className="text-gray-300 text-lg font-bold">Email:</h5>
-              <p className="text-gray-400 text-md ml-3"> emma@example.com</p>
+              <span className="text-gray-400 text-md ml-3 font-semibold">
+                {" "}
+                emma@example.com
+              </span>
             </div>
             <div className="flex items-center justify-content-center">
               <h5 className="text-gray-300 text-lg font-bold">From:</h5>
-              <p className="text-gray-400 text-md ml-3"> Liverpool, UK</p>
+              <span className="text-gray-400 text-md ml-3 font-semibold">
+                {" "}
+                Liverpool, UK
+              </span>
             </div>
           </div>
         </div>
