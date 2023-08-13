@@ -61,7 +61,7 @@ function Levels() {
     >
       <span className="flex items-center justify-items-center">
         <h3 className="text-3xl font-bold text-gray-300">
-          Level Up Your Coding Skills{" "}
+          {/* Level Up Your Coding Skills{" "} */}
         </h3>
         <span
           className={`font-bold text-2xl transform transition-transform ${

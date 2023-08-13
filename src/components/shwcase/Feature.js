@@ -11,8 +11,8 @@ function Feature() {
           01 / 03
         </span>
       </div>
-      <h3 className="font-bold text-3xl uppercase text-gray-300 mt-3">
-        CRONOLOGICS OS
+      <h3 className="font-bold text-5xl uppercase text-gray-300 mt-3">
+        projects updates
       </h3>
     </div>
   );
