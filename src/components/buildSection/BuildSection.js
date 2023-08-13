@@ -6,7 +6,7 @@ import { BsGithub } from "react-icons/bs";
 
 function BuildSection() {
   return (
-    <div className="flex flex-col lg:flex-row gap-14 mx-6 lg:mx-0 mr-11 lg:mb-60 ">
+    <div className="flex flex-col lg:flex-row gap-14 mx-6 lg:mx-0 mr-11 mb-0 lg:mb-52 ">
       <div className="main-container h-64 overflow-y-scroll scrollbar-none relative rounded-b-xl">
         <div className="flex items-center justify-center">
           <div className="w-3/ bg-white rounded-lg shadow-md relative">
