@@ -28,20 +28,20 @@ function BuildSection() {
       </div>
       <div className="mr-2">
         <h1 className="text-3xl md:text-4xl font-bold text-gray-300 mb-3 md:mb-4">
-          01. To Do Full Stack App
+          ToDo Full Stack App
         </h1>
         <div className=" ml-  ">
-          <span className="text-lg text-gray-400">
+          <span className="text-sm sm:text-lg text-gray-400">
             {" "}
             This is an assignment given in "JavaScript Full Stack Web Developer
             Bootcamp" by iNeuron, built using MongoDb, Express, React and
             NodeJS. This Site is Fully Responsive
           </span>
-          <h5 className="text-blue-500 text-lg font-semibold">
+          <h5 className="text-blue-500 text-md md:text-lg font-semibold">
             React NodeJS Express MongoDb Tailwind CSS
           </h5>
         </div>
-        <div className="space-x-4 text-gray-300 mt-4">
+        <div className="space-x-4 text-gray-300 font-semibold text-md sm:text-lg mt-4">
           <span>html5</span>
           <span>Reactjs</span>
           <span>Tailwind css</span>
