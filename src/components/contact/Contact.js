@@ -1,19 +1,74 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import { FaUbuntu } from "react-icons/fa";
 import { MdLocationOn, MdCall, MdSend } from "react-icons/md";
+import emailjs from "@emailjs/browser";
 
 function Contact() {
+  // const [name, setName] = useState();
+  // const [email, setEmail] = useState();
+  // const [subject, setSubject] = useState();
+  // const [message, setMessage] = useState();
+
+  // const nameHandler = (e) => {
+  //   setName(e.target.value);
+  // };
+  // const onEmailHandler = (e) => {
+  //   setEmail(e.target.value);
+  // };
+  // const onSubjectHandler = (e) => {
+  //   setSubject(e.target.value);
+  // };
+  // const onMessageHandler = (e) => {
+  //   setMessage(e.target.value);
+  // };
+
+  // const onSubmitHandler = (e) => {
+  //   e.preventDefault();
+
+  //   const contactObj = {
+  //     nameValue: name,
+  //     emailValue: email,
+  //     subjectValue: subject,
+  //     messageValue: message,
+  //   };
+
+  //   console.log(contactObj);
+  // };
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_u4ayvfn",
+        "template_mxhx7r8",
+        form.current,
+        "WOuQBcdtXMd5Y2bUD"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("messege sent ");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 lg:mb-40 gap-14 items-center  justify-content-ceneter">
       <div className="mr-12 mx-6 lg:mx-0 ">
         <h3 className="text-2xl font-bold mb-6 text-gray-300">Contact Me!</h3>
 
-        <form className="">
+        <form ref={form} onSubmit={sendEmail} className="">
           <div class="grid md:grid-cols-2 md:gap-6">
             <div class="relative z-0 w-full mb-6 group">
               <input
                 type="text"
-                name="floating_first_name"
+                name="user_name"
                 id="floating_first_name"
                 class="block py-3.5 px-0 w-full  rounded-md  text-gray-400 bg-gray-800 
            appearance-none 
@@ -25,8 +80,8 @@ function Contact() {
             </div>
             <div class="relative z-0 w-full mb-6 group">
               <input
-                type="text"
-                name="floating_first_name"
+                type="email"
+                name="user_email"
                 id="floating_first_name"
                 class="block py-3.5 px-0 w-full  rounded-md  text-gray-400 bg-gray-800 
            appearance-none 
@@ -41,7 +96,7 @@ function Contact() {
           <div class="relative z-0 w-full mb-6 group">
             <input
               type="text"
-              name="floating_first_name"
+              name="user_subject"
               id="floating_first_name"
               class="block py-3.5 px-0 w-full  rounded-md  text-gray-400 bg-gray-800 
            appearance-none 
@@ -53,8 +108,8 @@ function Contact() {
           </div>
           <div class="relative z-0 w-full mb-6 group">
             <textarea
-              name="floating_message"
-              id="floating_message"
+              name="user_email"
+              id="message"
               class="block py-3.5 px-3 w-full h-[8rem] rounded-md text-gray-400 bg-gray-800
            appearance-none resize-none
            focus:border-b border-blue-500
