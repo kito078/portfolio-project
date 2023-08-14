@@ -9,12 +9,14 @@ import Contact from "../components/contact/Contact";
 import AboutMe from "../components/About/AboutMe";
 import About from "../components/About/About";
 import Skills from "../components/skills/Skills";
+import SkillSection from "../components/skills/SkillSection";
 
 function Home() {
   return (
     <div className="container-one ">
       <Shocase />
       <Skills />
+      <SkillSection />
       <Feature />
       <Levels />
       <BuildSection />
