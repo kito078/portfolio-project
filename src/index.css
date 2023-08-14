@@ -20,8 +20,8 @@ body {
 }
 
 .shocase__body {
-  max-width: 350px;
-  margin: auto;
+  width: 1400px !important;
+  margin: auto !important;
 }
 
 /* Hide the scrollbar while keeping the content scrollable */

@@ -1,5 +1,5 @@
 import React from "react";
-import Man from "../../images/man.jpg";
+import Man from "../../images/kito.jpg";
 
 function AboutMe() {
   return (
@@ -12,10 +12,10 @@ function AboutMe() {
           <h3 className="text-2xl text-blue-500 mb-4 font-semibold">
             Who am i?
           </h3>
-          <h3 className="text-3xl md:text-4xl font-bold text-gray-300 font-bold mb-5">
-            I'm Emma Smith, a visual UX/UI Designer and Web Developer
+          <h3 className="text-3xl md:text-3xl font-bold text-gray-300 font-bold mb-5">
+            I'm Ngqabutho Kito Ndlovu, a visual UX/UI Designer and Web Developer
           </h3>
-          <span className="text-gray-400 text-sm">
+          <span className="text-gray-400 text-sm sm:text-lg">
             {" "}
             I am a freelancer based in the United Kingdom and i have been
             building noteworthy UX/UI designs and websites for years, which
@@ -28,7 +28,7 @@ function AboutMe() {
         <div className="w-full group-hover:w-20 transition-all duration-300">
           <hr className="border-t-2 border-gray-700 my-6 " />
         </div>
-        <div className="flex flex-col sm:flex-row  justify-between">
+        <div className="flex flex-col sm:flex-row  justify-between mr-5">
           <div>
             <div className="flex items-center mb-4">
               <h5 className="text-gray-300 text:md sm:text-lg font-bold">

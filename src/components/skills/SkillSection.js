@@ -3,7 +3,7 @@ import Html from "../../images/j.png";
 
 function SkillSection() {
   return (
-    <div className="grid grid-rows-3 gap-4 items-center justify-center">
+    <div class="grid grid-col-2 hover:grid-rows-6">
       <div className="flex flex-col items-center">
         <img className="w-20 mb-4" src={Html} alt="" />
         <h5 className="uppercase font-bold text-gray-300">html</h5>
