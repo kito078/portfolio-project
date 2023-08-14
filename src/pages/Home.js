@@ -8,11 +8,13 @@ import Touch from "../components/contact/Touch";
 import Contact from "../components/contact/Contact";
 import AboutMe from "../components/About/AboutMe";
 import About from "../components/About/About";
+import Skills from "../components/skills/Skills";
 
 function Home() {
   return (
     <div className="container-one ">
       <Shocase />
+      <Skills />
       <Feature />
       <Levels />
       <BuildSection />

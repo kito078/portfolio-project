@@ -8,7 +8,7 @@ function BuildItem({ project }) {
   const { img, title, desc, tech, git, web, pro1, pro2, pro3 } = project;
 
   return (
-    <div className="build flex flex-col lg:flex-row gap-8 sm:gap-14 mx-6 lg:mx-0 mr-11 mb-16 lg:mb-40 ">
+    <div className="build flex flex-col lg:flex-row gap-8 sm:gap-14 mx-6 lg:mx-0 mr-11 mb-16  lg:mb-52 ">
       <div className="main-container build__header h-64 overflow-y-scroll scrollbar-none relative rounded-b-2xl">
         <div className="flex items-center justify-center">
           <div className="w-3/ bg-white rounded-lg shadow-md relative">
