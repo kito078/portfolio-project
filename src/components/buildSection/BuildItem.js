@@ -9,7 +9,7 @@ function BuildItem({ project }) {
 
   return (
     <div className="build flex flex-col lg:flex-row gap-8 sm:gap-14 mx-6 lg:mx-0 mr-11 mb-16 lg:mb-40 ">
-      <div className="main-container build__header h-64 overflow-y-scroll scrollbar-none relative rounded-b-xl">
+      <div className="main-container build__header h-64 overflow-y-scroll scrollbar-none relative rounded-b-2xl">
         <div className="flex items-center justify-center">
           <div className="w-3/ bg-white rounded-lg shadow-md relative">
             <div className="overlay">
@@ -25,7 +25,7 @@ function BuildItem({ project }) {
         </div>
       </div>
       <div className="mr-2">
-        <h1 className="text-3xl md:text-4xl font-bold text-gray-300 mb-3 md:mb-4">
+        <h1 className="text-3xl md:text-3xl font-bold text-gray-300 mb-3 md:mb-4">
           {title}
         </h1>
         <div className=" ml-  ">
