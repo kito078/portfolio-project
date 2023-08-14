@@ -1,8 +1,12 @@
 import React from "react";
+import Man from "../../images/man.jpg";
 
 function AboutMe() {
   return (
-    <div className="mx-6 lg:mx-0 mr-12">
+    <div className="mx-6 lg:mx-0 mr-12 flex gap-20">
+      <div className="shocase__body hidden lg:block">
+        <img src={Man} alt="" />
+      </div>
       <div>
         <div>
           <h3 className="text-2xl text-blue-500 mb-4 font-semibold">

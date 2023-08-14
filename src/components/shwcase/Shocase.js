@@ -6,7 +6,7 @@ import Man from "../../images/man.jpg";
 
 function Shocase() {
   return (
-    <div className="mx-6 lg:mx-0  lg:mb-60 flex flex-col lg:flex-row">
+    <div className="mx-6 lg:mx-0  lg:mb-60 flex flex-col lg:flex-row ">
       <div>
         <h1 className="leading-normal text-5xl  sm:text-7xl font-bold text-gray-300 mb-3">
           Ngqabutho Kito Ndlovu
@@ -57,7 +57,7 @@ function Shocase() {
           </div>
         </div>
       </div>
-      <div className="shocase__body">
+      <div className="shocase__body hidden lg:block">
         <img className="w-full" src={Man} alt="" />
       </div>
     </div>
