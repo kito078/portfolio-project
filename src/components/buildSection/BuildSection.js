@@ -12,7 +12,7 @@ function BuildSection() {
   const projects = [
     {
       img: Build1,
-      title: "ShopStore React App",
+      title: "ShopStore React-App",
       desc: "This is an assignment given in JavaScript Full Stack Web DeveloperBootcamp by iNeuron, built using MongoDb, Express, React andNodeJS. This Site is Fully Responsive",
       tech: "React NodeJS Express MongoDb Tailwind CSS",
       pro1: "html5",
@@ -23,7 +23,7 @@ function BuildSection() {
     },
     {
       img: Build2,
-      title: "IT-Soft Javascript App",
+      title: "IT-Soft JS App",
       desc: "This is an assignment given in JavaScript Full Stack Web DeveloperBootcamp by iNeuron, built using MongoDb, Express, React andNodeJS. This Site is Fully Responsive",
       tech: "React NodeJS Express MongoDb Tailwind CSS",
       pro1: "html5",
@@ -34,7 +34,7 @@ function BuildSection() {
     },
     {
       img: Build3,
-      title: "soHost React App",
+      title: "soHost React-App",
       desc: "This is an assignment given in JavaScript Full Stack Web DeveloperBootcamp by iNeuron, built using MongoDb, Express, React andNodeJS. This Site is Fully Responsive",
       tech: "React NodeJS Express MongoDb Tailwind CSS",
       pro1: "html5",
