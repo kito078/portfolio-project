@@ -2,39 +2,10 @@ import React, { useRef, useState } from "react";
 import { FaUbuntu } from "react-icons/fa";
 import { MdLocationOn, MdCall, MdSend } from "react-icons/md";
 import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function Contact() {
-  // const [name, setName] = useState();
-  // const [email, setEmail] = useState();
-  // const [subject, setSubject] = useState();
-  // const [message, setMessage] = useState();
-
-  // const nameHandler = (e) => {
-  //   setName(e.target.value);
-  // };
-  // const onEmailHandler = (e) => {
-  //   setEmail(e.target.value);
-  // };
-  // const onSubjectHandler = (e) => {
-  //   setSubject(e.target.value);
-  // };
-  // const onMessageHandler = (e) => {
-  //   setMessage(e.target.value);
-  // };
-
-  // const onSubmitHandler = (e) => {
-  //   e.preventDefault();
-
-  //   const contactObj = {
-  //     nameValue: name,
-  //     emailValue: email,
-  //     subjectValue: subject,
-  //     messageValue: message,
-  //   };
-
-  //   console.log(contactObj);
-  // };
-
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -51,12 +22,15 @@ function Contact() {
         (result) => {
           console.log(result.text);
           console.log("messege sent ");
+          toast("messege sent ");
         },
         (error) => {
           console.log(error.text);
         }
       );
   };
+
+  const notify = () => toast("Wow so easy!");
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 lg:mb-40 gap-14 items-center  justify-content-ceneter">
@@ -120,6 +94,7 @@ function Contact() {
           </div>
 
           <button
+            onClick={notify}
             type="submit"
             class="text-white  
             focus:ring-4 focus:outline-none 
@@ -128,6 +103,7 @@ function Contact() {
           >
             Submit
           </button>
+          <ToastContainer />
         </form>
       </div>
       <div className="mt-14 mx-6 lg:mx-0">
