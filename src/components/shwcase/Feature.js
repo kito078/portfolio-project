@@ -11,7 +11,7 @@ function Feature() {
           01 / 03
         </span>
       </div>
-      <h3 className="font-bold text-5xl uppercase text-gray-300 mt-3">
+      <h3 className="text-gray-300 text-4xl md:text-6xl font-bold mb-6">
         projects updates
       </h3>
     </div>

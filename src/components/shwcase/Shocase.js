@@ -3,14 +3,17 @@ import { FaTwitter, FaLinkedin } from "react-icons/fa";
 import { BsGithub, BsInstagram } from "react-icons/bs";
 import Follow from "../follow/Follow";
 import Man from "../../images/man.jpg";
+import Typical from "react-typical";
 
 function Shocase() {
+  const steps = ["Ngqabutho", 1000, "Ngqabutho Kito Ndlovu!", 500];
   return (
-    <div className="mx-6 lg:mx-0  lg:mb-60 flex flex-col lg:flex-row ">
+    <div className="mx-6 lg:mx-0  lg:mb-40 flex flex-col lg:flex-row ">
       <div>
-        <h1 className="leading-normal text-5xl  sm:text-7xl font-bold text-gray-300 mb-3">
-          Ngqabutho Kito Ndlovu
-        </h1>
+        <div className="leading-normal text-5xl  sm:text-7xl font-bold text-gray-300 mb-3">
+          <Typical steps={steps} loop={Infinity} wrapper="h1" />
+        </div>
+
         <h3 className="text-3xl md:text-4xl font-bold text-gray-300 mb-3 md:my-6">
           JavaScript Mastery
         </h3>
@@ -57,9 +60,9 @@ function Shocase() {
           </div>
         </div>
       </div>
-      <div className="shocase__body hidden lg:block">
+      {/* <div className="shocase__body hidden lg:block">
         <img className="w-full" src={Man} alt="" />
-      </div>
+      </div> */}
     </div>
   );
 }

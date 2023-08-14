@@ -48,6 +48,11 @@ p {
   }
 }
 
+.build__header {
+  max-width: 560px;
+  margin: auto;
+}
+
 @media (min-width: 992px) {
   .build:nth-child(2) .build__header {
     display: grid;
