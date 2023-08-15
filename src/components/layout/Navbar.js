@@ -19,17 +19,17 @@ function Navbar() {
 
           <div className="flex  px-2 mx-2">
             <FaHornbill className="inline pr-2 text-4xl" />
-            <h4 className="text-lg font-bold align-middle">MealDay</h4>
+            <h4 className="text-xl mt-2  font-bold align-middle">Kessian</h4>
           </div>
 
           {/* Menu Items */}
           <div className="hidden items-center space-x-10 uppercase text-grayisBlue md:flex">
-            <h5 className="tracking-widest hover:text-softRed text-1xl font-semibold">
+            <h5 className="tracking-widest hover:text-blue-500  text-sm font-semibold cursor-pointer">
               Home |
             </h5>
             <h5
               to="/about"
-              className="tracking-widest hover:text-softRed text-1xl font-semibold"
+              className="tracking-widest hover:text-blue-500 text-sm cursor-pointer font-semibold"
             >
               About |
             </h5>
