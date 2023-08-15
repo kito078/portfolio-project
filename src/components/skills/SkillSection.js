@@ -1,25 +1,12 @@
 import React from "react";
-import Html from "../../images/j.png";
 
 function SkillSection() {
   return (
-    <div class="flex hover:grid-rows-6">
-      <div className="flex flex-col items-center">
-        <img className="w-20 mb-4" src={Html} alt="" />
-        <h5 className="uppercase font-bold text-gray-300">html</h5>
-      </div>
-      <div className="flex flex-col items-center">
-        <img className="w-20 mb-4" src={Html} alt="" />
-        <h5 className="uppercase font-bold text-gray-300">html</h5>
-      </div>
-      <div className="flex flex-col items-center">
-        <img className="w-20 mb-4" src={Html} alt="" />
-        <h5 className="uppercase font-bold text-gray-300">html</h5>
-      </div>
-      <div className="flex flex-col items-center">
-        <img className="w-20 mb-4" src={Html} alt="" />
-        <h5 className="uppercase font-bold text-gray-300">html</h5>
-      </div>
+    <div className="grid-one col-span-2">
+      <div>heed</div>
+      <div>heed</div>
+      <div>heed</div>
+      <div>heed</div>
     </div>
   );
 }

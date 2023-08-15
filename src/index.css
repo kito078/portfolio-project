@@ -24,6 +24,10 @@ body {
   margin: auto !important;
 }
 
+.grid-one {
+  display: grid !important;
+}
+
 /* Hide the scrollbar while keeping the content scrollable */
 .scrollbar-none::-webkit-scrollbar {
   width: 0;
