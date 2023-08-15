@@ -36,7 +36,7 @@ function AboutMe() {
                 Name:
               </h5>
               <span className="text-gray-400 text-sm md:text-md ml-3 font-semibold">
-                Emma Smith
+                Ngqabutho Kito Ndlovu
               </span>
             </div>
             <div className="flex items-center justify-content-center">
@@ -44,7 +44,7 @@ function AboutMe() {
                 Age:
               </h5>
               <span className="text-gray-400 text-sm md:text-md ml-6 font-semibold">
-                21
+                25
               </span>
             </div>
           </div>
@@ -55,7 +55,7 @@ function AboutMe() {
               </h5>
               <span className="text-gray-400 text-sm md:text-md ml-3 font-semibold">
                 {" "}
-                emma@example.com
+                kitokessian07@gmail.com
               </span>
             </div>
             <div className="flex items-center justify-content-center">
@@ -64,7 +64,7 @@ function AboutMe() {
               </h5>
               <span className="text-gray-400 text-sm md:text-md ml-3 font-semibold">
                 {" "}
-                Liverpool, UK
+                Beria JHB
               </span>
             </div>
           </div>
