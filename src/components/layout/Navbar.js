@@ -11,15 +11,17 @@ function Navbar() {
     setIsOpen(!isOpen);
   };
   return (
-    <nav className="mb-12  bg-neutral relative mx-auto p-2 px-6 sticky top-0">
+    <nav className="navbar-container mb-12 z-10  bg-neutral relative mx-auto p-2 px-6 sticky top-0">
       <div className="container-one">
         {/* flex container for Nav Items */}
         <div className="flex items-center justify-between space-x-20 my-2">
           {/* logo */}
 
           <div className="flex  px-2 mx-2">
-            <FaHornbill className="inline pr-2 text-4xl" />
-            <h4 className="text-xl mt-2  font-bold align-middle">Kessian</h4>
+            <FaHornbill className="inline pr-2 mt-2 md:mt-5 text-4xl" />
+            <h4 className="text-xl mt-3 md:mt-6  font-bold align-middle">
+              Kessian
+            </h4>
           </div>
 
           {/* Menu Items */}
