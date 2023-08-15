@@ -15,11 +15,11 @@ function Shocase() {
         </div>
 
         <h3 className="text-3xl md:text-4xl font-bold text-gray-300 mb-3 md:my-6">
-          JavaScript Mastery
+          Front-End Developer.
         </h3>
         <p className="text-gray-400 text-lg font-normal mb-20 mr-3">
-          I build accessible, inclusive products and digital experiences for the
-          web.
+          I am passionately dedicated to frontend development, specializing in
+          creating elegant and responsive web applications
         </p>
         <div className="flex items-center justify-items-center cursor-pointer  group">
           <div className="w-10 group-hover:w-20 transition-all duration-300">

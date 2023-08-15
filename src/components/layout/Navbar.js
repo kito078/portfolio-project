@@ -55,15 +55,15 @@ function Navbar() {
           id="menu"
           className={`${
             isOpen ? "flex" : "hidden"
-          } fixed inset-0 z-20 md:hidden flex-col items-center self-end w-full h-full m-h-screen px-6 py-1 pt-24 pb-4 tracking-widest text-white uppercase divide-y divide-gray-500 opacity-90 bg-veryDarkBlue`}
+          } fixed inset-0 z-20 md:hidden flex-col items-center self-end w-full h-full m-h-screen px-6 py-1 pt-24 pb-4 tracking-widest text-white uppercase divide-y divide-gray-500 opacity-90 bg-black`}
         >
           <div className="w-full py-3 text-center">
-            <a href="#home" className="block ">
+            <a href="#home" className="block font-semibold cursor-pointer">
               Home
             </a>
           </div>
           <div className="w-full py-3  text-center">
-            <a href="#about" className="block ">
+            <a href="#about" className="block font-semibold cursor-pointer">
               About
             </a>
           </div>

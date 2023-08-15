@@ -13,16 +13,17 @@ function AboutMe() {
             Who am i?
           </h3>
           <h3 className="text-3xl md:text-3xl font-bold text-gray-300 font-bold mb-5">
-            I'm Ngqabutho Kito Ndlovu, a visual UX/UI Designer and Web Developer
+            I'm Ngqabutho Kito Ndlovu, a Web Developer specializing in creating
+            innovative digital experiences
           </h3>
           <span className="text-gray-400 text-sm sm:text-lg">
             {" "}
-            I am a freelancer based in the United Kingdom and i have been
-            building noteworthy UX/UI designs and websites for years, which
-            comply with the latest design trends. I help convert a vision and an
-            idea into meaningful and useful products. Having a sharp eye for
-            product evolution helps me prioritize tasks, iterate fast and
-            deliver faster.{" "}
+            As a frontend developer with a strong devotion to crafting elegant
+            and responsive web applications, I am finding profound joy in
+            transforming imaginative designs into interactive, user-friendly
+            interfaces. Each project I work on is an opportunity to create
+            engaging digital experiences that resonate with users and leave a
+            lasting impact.{" "}
           </span>
         </div>
         <div className="w-full group-hover:w-20 transition-all duration-300">
