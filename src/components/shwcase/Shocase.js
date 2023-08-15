@@ -8,7 +8,10 @@ import Typical from "react-typical";
 function Shocase() {
   const steps = ["Ngqabutho", 1000, "Ngqabutho Kito Ndlovu!", 500];
   return (
-    <div className="mx-6 lg:mx-0  lg:mb-40 flex flex-col lg:flex-row ">
+    <div
+      className="mx-6 lg:mx-0  lg:mb-40 flex flex-col lg:flex-row "
+      id="home"
+    >
       <div>
         <div className="leading-normal text-5xl  sm:text-7xl font-bold text-gray-300 mb-3">
           <Typical steps={steps} loop={Infinity} wrapper="h1" />

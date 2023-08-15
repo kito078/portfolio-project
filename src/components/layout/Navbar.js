@@ -13,8 +13,6 @@ function Navbar() {
     setIsOpen(!isOpen);
   };
 
-  const handleClick = () => setClick(!click);
-
   const closeMenu = () => setClick(false);
   return (
     <nav className="navbar-container mb-12 z-10  bg-neutral relative mx-auto p-2 px-6 sticky top-0">
@@ -33,11 +31,25 @@ function Navbar() {
           {/* Menu Items */}
           <div className="hidden items-center space-x-10 uppercase text-grayisBlue md:flex">
             <a
-              href="#showcase"
+              href="#home"
               onClick={closeMenu}
               className="tracking-widest hover:text-blue-500  text-sm font-semibold cursor-pointer"
             >
               Home |
+            </a>
+            <a
+              href="#contact"
+              onClick={closeMenu}
+              className="tracking-widest hover:text-blue-500  text-sm font-semibold cursor-pointer"
+            >
+              Contact |
+            </a>
+            <a
+              href="#projects"
+              onClick={closeMenu}
+              className="tracking-widest hover:text-blue-500  text-sm font-semibold cursor-pointer"
+            >
+              Projects |
             </a>
             <a
               href="#about"
@@ -69,12 +81,38 @@ function Navbar() {
           } fixed inset-0 z-20 md:hidden flex-col items-center self-end w-full h-full m-h-screen px-6 py-1 pt-24 pb-4 tracking-widest text-white uppercase divide-y divide-gray-500 opacity-90 bg-black`}
         >
           <div className="w-full py-3 text-center">
-            <a href="#home" className="block font-semibold cursor-pointer">
+            <a
+              href="#home"
+              onClick={closeMenu}
+              className="block font-semibold cursor-pointer"
+            >
               Home
             </a>
           </div>
+          <div className="w-full py-3 text-center">
+            <a
+              href="#contact"
+              onClick={closeMenu}
+              className="block font-semibold cursor-pointer"
+            >
+              Contact
+            </a>
+          </div>
+          <div className="w-full py-3 text-center">
+            <a
+              href="#projects"
+              onClick={closeMenu}
+              className="block font-semibold cursor-pointer"
+            >
+              Projects
+            </a>
+          </div>
           <div className="w-full py-3  text-center">
-            <a href="#about" className="block font-semibold cursor-pointer">
+            <a
+              href="#about"
+              onClick={closeMenu}
+              className="block font-semibold cursor-pointer"
+            >
               About
             </a>
           </div>
