@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaTwitter, FaLinkedin } from "react-icons/fa";
 import { BsGithub, BsInstagram } from "react-icons/bs";
 import Follow from "../follow/Follow";
