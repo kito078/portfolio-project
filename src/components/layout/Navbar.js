@@ -37,14 +37,14 @@ function Navbar() {
             >
               Home |
             </a>
-            {/* <a
+            <a
               href="#contact"
               onClick={closeMenu}
               className="tracking-widest hover:text-blue-500  text-sm font-semibold cursor-pointer"
             >
               Contact |
             </a>
-            <a
+            {/* <a
               href="#projects"
               onClick={closeMenu}
               className="tracking-widest hover:text-blue-500  text-sm font-semibold cursor-pointer"

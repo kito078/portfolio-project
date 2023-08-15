@@ -6,6 +6,10 @@ import Man from "../../images/man.jpg";
 import Typical from "react-typical";
 
 function Shocase() {
+  const [click, setClick] = useState(false);
+
+  const closeMenu = () => setClick(false);
+
   const steps = ["Ngqabutho", 1000, "Ngqabutho Kito Ndlovu!", 500];
   return (
     <div
@@ -28,25 +32,37 @@ function Shocase() {
           <div className="w-10 group-hover:w-20 transition-all duration-300">
             <hr className="border-t-2 border-gray-400 my-2" />
           </div>
-          <span className="mb-2 ml-4 text-gray-300 uppercase text-sm font-bold">
+          <a
+            href="#about"
+            onClick={closeMenu}
+            className="mb-2 ml-4 text-gray-300 uppercase text-sm font-bold"
+          >
             ABout
-          </span>
+          </a>
         </div>
         <div className="flex items-center justify-items-center cursor-pointer group">
           <div className="w-10 group-hover:w-20 transition-all duration-300">
             <hr className="border-t-2 border-gray-600 my-2" />
           </div>
-          <span className="mb-2 ml-4 text-gray-00 uppercase text-sm font-bold">
+          <a
+            href="#experience"
+            onClick={closeMenu}
+            className="mb-2 ml-4 text-gray-00 uppercase text-sm font-bold"
+          >
             experience
-          </span>
+          </a>
         </div>
         <div className="flex items-center justify-items-center cursor-pointer group">
           <div className="w-10 group-hover:w-20 transition-all duration-300">
             <hr className="border-t-2 border-gray-600 my-2" />
           </div>
-          <span className="mb-2 ml-4 text-gray-00 uppercase text-sm font-bold">
+          <a
+            href="#projects"
+            onClick={closeMenu}
+            className="mb-2 ml-4 text-gray-00 uppercase text-sm font-bold"
+          >
             projects
-          </span>
+          </a>
         </div>
         <div className="flex items-center justify-items-center mt-10">
           <div>
