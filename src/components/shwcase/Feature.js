@@ -2,7 +2,10 @@ import React from "react";
 
 function Feature() {
   return (
-    <div className="flex flex-col items-center justify-items-center mt-20">
+    <div
+      className="flex flex-col items-center justify-items-center mt-20"
+      id="projects"
+    >
       <div className="flex items-center justify-items-center cursor-pointer group">
         <div className="w-14 ">
           <hr className="border-t-2 border-gray-600 my-2" />

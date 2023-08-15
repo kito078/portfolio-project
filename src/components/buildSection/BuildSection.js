@@ -67,7 +67,7 @@ function BuildSection() {
     },
   ];
   return (
-    <div className="" id="projects">
+    <div className="">
       {projects.map((project) => (
         <BuildItem project={project} />
       ))}

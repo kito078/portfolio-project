@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 // import { Link } from "react-router-dom";
-
+import { Link } from "react-scroll";
 import { FaHornbill } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 
