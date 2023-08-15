@@ -37,7 +37,7 @@ function Navbar() {
             >
               Home |
             </a>
-            <a
+            {/* <a
               href="#contact"
               onClick={closeMenu}
               className="tracking-widest hover:text-blue-500  text-sm font-semibold cursor-pointer"
@@ -50,7 +50,7 @@ function Navbar() {
               className="tracking-widest hover:text-blue-500  text-sm font-semibold cursor-pointer"
             >
               Projects |
-            </a>
+            </a> */}
             <a
               href="#about"
               onClick={closeMenu}
@@ -89,7 +89,7 @@ function Navbar() {
               Home
             </a>
           </div>
-          <div className="w-full py-3 text-center">
+          {/* <div className="w-full py-3 text-center">
             <a
               href="#contact"
               onClick={closeMenu}
@@ -106,7 +106,7 @@ function Navbar() {
             >
               Projects
             </a>
-          </div>
+          </div> */}
           <div className="w-full py-3  text-center">
             <a
               href="#about"

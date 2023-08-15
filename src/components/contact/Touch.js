@@ -2,7 +2,10 @@ import React from "react";
 
 function Touch() {
   return (
-    <div className="flex flex-col items-center justify-content-center h-48 md:h-52 mt-32 md:mt-16 text-center mx-6 lg:mx-0">
+    <div
+      className="flex flex-col items-center justify-content-center h-48 md:h-52 mt-32 md:mt-16 text-center mx-6 lg:mx-0"
+      id="contact"
+    >
       <p className="text-gray-400 text-sm sm:text-lg mb-4">
         Feel free to contact me anytimes
       </p>
