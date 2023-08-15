@@ -26,6 +26,8 @@ body {
 
 .grid-one {
   display: grid !important;
+  grid-template-columns: 3fr !important;
+  grid-template-rows: 3fr;
 }
 
 /* Hide the scrollbar while keeping the content scrollable */

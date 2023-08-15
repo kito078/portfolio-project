@@ -7,9 +7,15 @@ import { FaGithub } from "react-icons/fa";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const [click, setClick] = useState(false);
+
   const toggleHandler = () => {
     setIsOpen(!isOpen);
   };
+
+  const handleClick = () => setClick(!click);
+
+  const closeMenu = () => setClick(false);
   return (
     <nav className="navbar-container mb-12 z-10  bg-neutral relative mx-auto p-2 px-6 sticky top-0">
       <div className="container-one">
@@ -26,15 +32,20 @@ function Navbar() {
 
           {/* Menu Items */}
           <div className="hidden items-center space-x-10 uppercase text-grayisBlue md:flex">
-            <h5 className="tracking-widest hover:text-blue-500  text-sm font-semibold cursor-pointer">
+            <a
+              href="#showcase"
+              onClick={closeMenu}
+              className="tracking-widest hover:text-blue-500  text-sm font-semibold cursor-pointer"
+            >
               Home |
-            </h5>
-            <h5
-              to="/about"
+            </a>
+            <a
+              href="#about"
+              onClick={closeMenu}
               className="tracking-widest hover:text-blue-500 text-sm cursor-pointer font-semibold"
             >
               About |
-            </h5>
+            </a>
           </div>
           {/* hamburger Button */}
           <button
