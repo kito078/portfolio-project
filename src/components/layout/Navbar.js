@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.css";
 // import { Link } from "react-router-dom";
 
-import { DiGrails } from "react-icons/di";
+import { FaHornbill } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 
 function Navbar() {
@@ -18,18 +18,18 @@ function Navbar() {
           {/* logo */}
 
           <div className="flex  px-2 mx-2">
-            <DiGrails className="inline pr-2 text-4xl" />
+            <FaHornbill className="inline pr-2 text-4xl" />
             <h4 className="text-lg font-bold align-middle">MealDay</h4>
           </div>
 
           {/* Menu Items */}
           <div className="hidden items-center space-x-10 uppercase text-grayisBlue md:flex">
-            <h5 className="tracking-widest hover:text-softRed text-1xl">
+            <h5 className="tracking-widest hover:text-softRed text-1xl font-semibold">
               Home |
             </h5>
             <h5
               to="/about"
-              className="tracking-widest hover:text-softRed text-1xl"
+              className="tracking-widest hover:text-softRed text-1xl font-semibold"
             >
               About |
             </h5>

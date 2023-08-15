@@ -22,7 +22,18 @@ function Contact() {
         (result) => {
           console.log(result.text);
           console.log("messege sent ");
-          toast("messege sent ");
+          toast.success("🦄 Message Sent!", {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+          });
+          // Clear form fields
+          form.current.reset();
         },
         (error) => {
           console.log(error.text);
@@ -30,7 +41,7 @@ function Contact() {
       );
   };
 
-  const notify = () => toast("Wow so easy!");
+  // const notify = () => toast("Wow so easy!");
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 lg:mb-40 gap-14 items-center  justify-content-ceneter">
@@ -94,7 +105,7 @@ function Contact() {
           </div>
 
           <button
-            onClick={notify}
+            onClick={sendEmail}
             type="submit"
             class="text-white  
             focus:ring-4 focus:outline-none 
