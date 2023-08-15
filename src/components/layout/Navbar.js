@@ -15,7 +15,7 @@ function Navbar() {
 
   const closeMenu = () => setClick(false);
   return (
-    <nav className="navbar-container mb-12 z-10  bg-neutral relative mx-auto p-2 px-6 sticky top-0">
+    <nav className="navbar-container mb-12 z-10  bg-neutral relative mx-auto p-2 px-6 sticky top-0 bg-dark">
       <div className="container-one">
         {/* flex container for Nav Items */}
         <div className="flex items-center justify-between space-x-20 my-2">
@@ -30,20 +30,28 @@ function Navbar() {
 
           {/* Menu Items */}
           <div className="hidden items-center space-x-10 uppercase text-grayisBlue md:flex">
-            <a
-              href="#home"
+            <Link
+              to="/"
               onClick={closeMenu}
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={1300}
               className="tracking-widest hover:text-blue-500  text-sm font-semibold cursor-pointer"
             >
               Home |
-            </a>
-            <a
-              href="#contact"
+            </Link>
+            <Link
+              to="contact"
               onClick={closeMenu}
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={1300}
               className="tracking-widest hover:text-blue-500  text-sm font-semibold cursor-pointer"
             >
               Contact |
-            </a>
+            </Link>
             {/* <a
               href="#projects"
               onClick={closeMenu}
@@ -51,13 +59,17 @@ function Navbar() {
             >
               Projects |
             </a> */}
-            <a
-              href="#about"
+            <Link
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={1300}
               onClick={closeMenu}
               className="tracking-widest hover:text-blue-500 text-sm cursor-pointer font-semibold"
             >
               About |
-            </a>
+            </Link>
           </div>
           {/* hamburger Button */}
           <button

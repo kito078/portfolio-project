@@ -139,7 +139,7 @@ function Contact() {
                 Name
               </h5>
               <span className="text-gray-400 text-sm md:text-md font-semibold">
-                Emma Smith
+                Ngqabutho Kito Ndlovu
               </span>
             </div>
             <div className="mb-4">
@@ -147,7 +147,7 @@ function Contact() {
                 Location
               </h5>
               <span className="text-gray-400 text-sm md:text-md font-semibold">
-                4155 Mann Island, Liverpool, United Kingdom.
+                Beria JHB
               </span>
             </div>
             <div className="mb-4">
@@ -155,7 +155,7 @@ function Contact() {
                 Call Me
               </h5>
               <span className="text-gray-400 text-sm md:text-md font-semibold">
-                +44 1632 967704
+                +27 84 961 4484
               </span>
             </div>
             <div className="mb-4">
@@ -163,7 +163,7 @@ function Contact() {
                 Email Me
               </h5>
               <span className="text-gray-400 text-sm md:text-mdfont-semibold">
-                emma@example.com
+                kitokessian07@gmail.com
               </span>
             </div>
           </div>

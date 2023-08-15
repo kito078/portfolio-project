@@ -4,6 +4,7 @@ import { BsGithub, BsInstagram } from "react-icons/bs";
 import Follow from "../follow/Follow";
 import Man from "../../images/man.jpg";
 import Typical from "react-typical";
+import { Link } from "react-scroll";
 
 function Shocase() {
   const [click, setClick] = useState(false);
@@ -32,37 +33,49 @@ function Shocase() {
           <div className="w-10 group-hover:w-20 transition-all duration-300">
             <hr className="border-t-2 border-gray-400 my-2" />
           </div>
-          <a
-            href="#about"
+          <Link
+            to="about"
             onClick={closeMenu}
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={1300}
             className="mb-2 ml-4 text-gray-300 uppercase text-sm font-bold"
           >
             ABout
-          </a>
+          </Link>
         </div>
         <div className="flex items-center justify-items-center cursor-pointer group">
           <div className="w-10 group-hover:w-20 transition-all duration-300">
             <hr className="border-t-2 border-gray-600 my-2" />
           </div>
-          <a
-            href="#experience"
+          <Link
+            to="experience"
             onClick={closeMenu}
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={1300}
             className="mb-2 ml-4 text-gray-00 uppercase text-sm font-bold"
           >
             experience
-          </a>
+          </Link>
         </div>
         <div className="flex items-center justify-items-center cursor-pointer group">
           <div className="w-10 group-hover:w-20 transition-all duration-300">
             <hr className="border-t-2 border-gray-600 my-2" />
           </div>
-          <a
-            href="#projects"
+          <Link
+            to="projects"
             onClick={closeMenu}
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={1300}
             className="mb-2 ml-4 text-gray-00 uppercase text-sm font-bold"
           >
             projects
-          </a>
+          </Link>
         </div>
         <div className="flex items-center justify-items-center mt-10">
           <div>
