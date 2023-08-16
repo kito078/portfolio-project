@@ -10,7 +10,7 @@ function AboutMe() {
       <div>
         <div>
           <h3 className="text-2xl text-blue-500 mb-4 font-semibold">
-            Who am i?
+            Who am I?
           </h3>
           <h3 className="text-3xl md:text-3xl font-bold text-gray-300 font-bold mb-5">
             I'm Ngqabutho Kito Ndlovu, a Web Developer specializing in creating

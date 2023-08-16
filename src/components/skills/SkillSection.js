@@ -4,15 +4,43 @@ import Box2 from "../../images/c.png";
 
 function SkillSection() {
   return (
-    <div class="grid grid-cols-3 gap-4">
-      <div class="bg-blue-200 p-4">
-        <img src={Box} alt="" />
+    <div class="grid grid-cols-3 sm:grid-cols-6 gap-4 mr-7">
+      <div class="flex flex-col items-center p-4 ">
+        <div>
+          <img className="w-20" src={Box} alt="" />
+        </div>
+        <h5 className="font-semibold text-md mt-4 uppercase">Html</h5>
       </div>
-      <div class="bg-blue-200 p-4">
-        <img src={Box2} alt="" />
+      <div class="flex flex-col items-center p-4 ">
+        <div>
+          <img className="w-20" src={Box} alt="" />
+        </div>
+        <h5 className="font-semibold text-md mt-4 uppercase">Html</h5>
       </div>
-      <div class="bg-green-200 p-4">Div 2</div>
-      <div class="bg-yellow-200 p-4">Div 3</div>
+      <div class="flex flex-col items-center p-4 ">
+        <div>
+          <img className="w-20" src={Box} alt="" />
+        </div>
+        <h5 className="font-semibold text-md mt-4 uppercase">Html</h5>
+      </div>
+      <div class="flex flex-col items-center p-4 ">
+        <div>
+          <img className="w-20" src={Box} alt="" />
+        </div>
+        <h5 className="font-semibold text-md mt-4 uppercase">Html</h5>
+      </div>
+      <div class="flex flex-col items-center p-4 ">
+        <div>
+          <img className="w-20" src={Box} alt="" />
+        </div>
+        <h5 className="font-semibold text-md mt-4 uppercase">Html</h5>
+      </div>
+      <div class="flex flex-col items-center p-4 ">
+        <div>
+          <img className="w-20" src={Box} alt="" />
+        </div>
+        <h5 className="font-semibold text-md mt-4 uppercase">Html</h5>
+      </div>
     </div>
   );
 }
