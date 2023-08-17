@@ -1,6 +1,7 @@
 import React from "react";
 import { FaTwitter, FaLinkedin } from "react-icons/fa";
 import { BsGithub, BsInstagram } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 function Follow() {
   return (
@@ -16,15 +17,18 @@ function Follow() {
         </div>
         <div>
           <div className="">
-            <div>
+            <Link to="https://github.com/kito078" target="_blank">
               <BsGithub className="text-lg my-7 mr-5 text-gray-400 cursor-pointer hover:text-gray-200" />
-            </div>
-            <div>
+            </Link>
+            <Link to="https://twitter.com/KKessian" target="_blank">
               <FaTwitter className="text-lg my-7 mr-5 text-gray-400 cursor-pointer hover:text-gray-200" />
-            </div>
-            <div>
+            </Link>
+            <Link
+              to="https://www.linkedin.com/in/ngqabutho-kito-kessian-269675209/"
+              target="_blank"
+            >
               <FaLinkedin className="text-lg my-7 mr-5 text-gray-400 cursor-pointer hover:text-gray-200" />
-            </div>
+            </Link>
           </div>
         </div>
       </div>

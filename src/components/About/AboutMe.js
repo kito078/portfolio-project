@@ -1,7 +1,7 @@
 import React from "react";
 import Man from "../../images/kito.jpg";
 
-const URL_PDF = "http://localhost:3000/KitoResume.pdf";
+const URL_PDF = "/KitoResume.pdf";
 
 function AboutMe() {
   const handleDownloadClick = (url) => {
