@@ -1,7 +1,19 @@
 import React from "react";
 import Man from "../../images/kito.jpg";
+import resume from "../../images/k";
 
 function AboutMe() {
+  handleDownloadClick = () => {
+    const pdfUrl = process.env.PUBLIC_URL + "/your-pdf-file.pdf";
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "downloaded-file.pdf";
+    link.target = "_blank"; // Open the link in a new tab/window
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className="mx-6 lg:mx-0 mr-12 flex gap-20">
       <div className="shocase__body hidden lg:block">
@@ -70,7 +82,10 @@ function AboutMe() {
           </div>
         </div>
         <div>
-          <button class="rounded-full bg-blue-500 py-3 px-14 my-8 text-lg">
+          <button
+            onClick={handleDownloadClick}
+            class="rounded-full bg-blue-500 py-3 px-14 my-8 text-lg"
+          >
             download cv
           </button>
         </div>
