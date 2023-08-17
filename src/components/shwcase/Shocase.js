@@ -78,18 +78,21 @@ function Shocase() {
           </Link>
         </div>
         <div className="flex items-center justify-items-center mt-10">
-          <div>
+          <Link to="https://github.com/kito078" target="_blank">
             <BsGithub className="text-2xl mr-5 text-gray-400 cursor-pointer  hover:text-gray-200" />
-          </div>
-          <div>
+          </Link>
+          <Link to="https://www.instagram.com/kit.7287/" target="_blank">
             <BsInstagram className="text-2xl mr-5 text-gray-400 cursor-pointer  hover:text-gray-200" />
-          </div>
-          <div>
+          </Link>
+          <Link to="https://twitter.com/KKessian" target="_blank">
             <FaTwitter className="text-2xl mr-5 text-gray-400 cursor-pointer  hover:text-gray-200" />
-          </div>
-          <div>
+          </Link>
+          <Link
+            to="https://www.linkedin.com/in/ngqabutho-kito-kessian-269675209/"
+            target="_blank"
+          >
             <FaLinkedin className="text-2xl mr-5 text-gray-400 cursor-pointer  hover:text-gray-200" />
-          </div>
+          </Link>
         </div>
       </div>
       {/* <div className="shocase__body hidden lg:block">
