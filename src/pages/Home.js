@@ -10,6 +10,7 @@ import AboutMe from "../components/About/AboutMe";
 import About from "../components/About/About";
 import Skills from "../components/skills/Skills";
 import SkillSection from "../components/skills/SkillSection";
+import Fotter from "../components/footer/Fotter";
 
 function Home() {
   return (
@@ -24,6 +25,7 @@ function Home() {
       <Contact />
       <About />
       <AboutMe />
+      <Fotter />
     </div>
   );
 }
