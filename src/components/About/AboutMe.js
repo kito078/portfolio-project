@@ -1,17 +1,17 @@
 import React from "react";
 import Man from "../../images/kito.jpg";
-import resume from "../../images/k";
+
+const URL_PDF = "http://localhost:3000/KitoResume.pdf";
 
 function AboutMe() {
-  handleDownloadClick = () => {
-    const pdfUrl = process.env.PUBLIC_URL + "/your-pdf-file.pdf";
-    const link = document.createElement("a");
-    link.href = pdfUrl;
-    link.download = "downloaded-file.pdf";
-    link.target = "_blank"; // Open the link in a new tab/window
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+  const handleDownloadClick = (url) => {
+    const fileName = url.split("/").pop();
+    const aTag = document.createElement("a");
+    aTag.href = url;
+    aTag.setAttribute("download", fileName);
+    document.body.appendChild(aTag);
+    aTag.click();
+    aTag.remove();
   };
 
   return (
@@ -83,8 +83,8 @@ function AboutMe() {
         </div>
         <div>
           <button
-            onClick={handleDownloadClick}
-            class="rounded-full bg-blue-500 py-3 px-14 my-8 text-lg"
+            onClick={() => handleDownloadClick(URL_PDF)}
+            class="rounded-full bg-blue-500 hover:bg-blue-600 py-3 px-14 my-8 text-lg uppercase"
           >
             download cv
           </button>
