@@ -13,7 +13,11 @@ function Navbar() {
     setIsOpen(!isOpen);
   };
 
-  const closeMenu = () => setClick(false);
+  // const handleNavbar = () => {
+  //   setIsOpen(false);
+  // };
+
+  const closeMenu = () => (setClick(false), setIsOpen(false));
   return (
     <nav className="navbar-container mb-12 z-10  bg-neutral relative mx-auto p-2 px-6 sticky top-0 bg-dark">
       <div className="container-one">
@@ -101,24 +105,7 @@ function Navbar() {
               Home
             </a>
           </div>
-          {/* <div className="w-full py-3 text-center">
-            <a
-              href="#contact"
-              onClick={closeMenu}
-              className="block font-semibold cursor-pointer"
-            >
-              Contact
-            </a>
-          </div>
-          <div className="w-full py-3 text-center">
-            <a
-              href="#projects"
-              onClick={closeMenu}
-              className="block font-semibold cursor-pointer"
-            >
-              Projects
-            </a>
-          </div> */}
+
           <div className="w-full py-3  text-center">
             <a
               href="#about"

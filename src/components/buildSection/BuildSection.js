@@ -4,6 +4,7 @@ import Build2 from "../../images/build2.png";
 import Build3 from "../../images/build3.png";
 import Build4 from "../../images/build4.png";
 import Build5 from "../../images/build5.png";
+import Build6 from "../../images/api.png";
 import "./BuildSection.css"; // Import your CSS file
 
 import BuildItem from "./BuildItem";
@@ -17,7 +18,7 @@ function BuildSection() {
       tech: "This Site is Fully Responsive",
       pro1: "html5",
       pro2: "Reactjs",
-      pro3: "Tailwind css",
+      pro3: "Bootstrap",
       git: "https://github.com/kito078/chack-me-store",
       web: "https://chack-me-store.vercel.app/",
     },
@@ -28,7 +29,6 @@ function BuildSection() {
       tech: "This Site is Fully Responsive",
       pro1: "html5",
       pro2: "Reactjs",
-      pro3: "Tailwind css",
       git: "https://github.com/kito078/IT-Soft",
       web: "https://dancing-fenglisu-f2dbc7.netlify.app/",
     },
@@ -39,7 +39,7 @@ function BuildSection() {
       tech: "This Site is Fully Responsive",
       pro1: "html5",
       pro2: "Reactjs",
-      pro3: "Tailwind css",
+      pro3: "Bootstrap",
       git: "https://github.com/kito078/soHost",
       web: "https://so-host.vercel.app/",
     },
@@ -50,7 +50,7 @@ function BuildSection() {
       tech: "This Site is Fully Responsive",
       pro1: "html5",
       pro2: "Reactjs",
-      pro3: "Tailwind css",
+      pro3: "Bootstrap",
       git: "https://github.com/United-Programmers/Buy_and_sell_react",
       web: "https://buy-and-sell-react.vercel.app/home",
     },
@@ -61,9 +61,20 @@ function BuildSection() {
       tech: "This Site is Fully Responsive",
       pro1: "html5",
       pro2: "Reactjs",
-      pro3: "Tailwind css",
+      pro3: "Bootstrap",
       git: "https://github.com/kito078/carStore",
       web: "https://car-store-umber.vercel.app/",
+    },
+    {
+      img: Build6,
+      title: "MealDay React App",
+      desc: "This food application is built by combining HTML, CSS, Bootstrap, and ReactJS, thoughtfully designed to offer users a seamless and delightful culinary experience",
+      tech: "This Site is Fully Responsive",
+      pro1: "html5",
+      pro2: "Reactjs",
+      pro3: "Tailwind css",
+      git: "https://github.com/kito078/mealDay-user-app",
+      web: "https://meal-day.vercel.app/",
     },
   ];
   return (
