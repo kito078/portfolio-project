@@ -56,13 +56,7 @@ function Navbar() {
             >
               Contact |
             </Link>
-            {/* <a
-              href="#projects"
-              onClick={closeMenu}
-              className="tracking-widest hover:text-blue-500  text-sm font-semibold cursor-pointer"
-            >
-              Projects |
-            </a> */}
+
             <Link
               to="about"
               spy={true}
@@ -103,6 +97,15 @@ function Navbar() {
               className="block font-semibold cursor-pointer"
             >
               Home
+            </a>
+          </div>
+          <div className="w-full py-3 text-center">
+            <a
+              href="#contact"
+              onClick={closeMenu}
+              className="block font-semibold cursor-pointer"
+            >
+              Contact
             </a>
           </div>
 
